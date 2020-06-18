@@ -33,6 +33,12 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+        <!--
+        git clone https://github.com/happyfish100/fastdfs-client-java.git
+        二、通过命令行找到源码包的根目录fastdfs-client-java ，然后执行 cd fastdfs-client-java/
+        三、然后执行maven命令：mvn package，将其打jar包，当出现下面的BUBUILD SUCCESS的时候表示成功
+        mvn install
+        -->
         <dependency>
             <groupId>org.csource</groupId>
             <artifactId>fastdfs-client-java</artifactId>
